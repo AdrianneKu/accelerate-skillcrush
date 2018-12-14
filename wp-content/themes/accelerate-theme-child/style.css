@@ -1,0 +1,147 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Adrianne Kuczynski
+Author URI:   http://example.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+    padding: .75em 0;
+}
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+
+.button {
+    background: #45ac9d;
+}
+
+/*front page blog post style*/
+.blog-post {
+    width: 50%;
+    float: left;
+    margin-bottom: 2em;
+}
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+.blog-post h3 {
+    font-size: 1.5em;
+}
+h5 {
+    font-size: 1em;
+    font-weight: normal;
+    color: gray;
+    text-align: center;
+    text-transform: none;
+}
+.read-more-link {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #45ac9d;
+    text-transform: uppercase;
+    margin-top: 2em;
+}
+
+/*case studies post style*/
+article.case-study {
+    margin-top: 2em;
+}
+aside.case-study-sidebar {
+    float: left;
+    width: 26%;
+    margin-right: 2.5em;
+    margin-top: 4em;
+}
+.case-study-images {
+    float: left;
+    width: 65%;
+    margin-left: 2.5em;
+}
+.case-study-images img {
+    margin-bottom: 3em;
+}
+aside.case-study-sidebar h2 {
+    font-size: 1.175em;
+    font-weight: normal;
+    margin: 0;
+}
+aside.case-study-sidebar h4 {
+    color: gray;
+    font-size: .675em;
+    font-weight: normal;
+    margin: 0 0 .5em;
+}
+aside.case-study-sidebar p {
+    font-size: .8em;
+    margin-bottom: 2em;
+}
+ul.homepage-featured-work {
+    margin: 2em 0 0 0;
+}
+li.case-studies-front-page {
+    display: inline-block;
+    list-style: none;
+    margin-right: 1em;
+}
+div.case-study-images img {
+    width: 100%;
+    height: auto;
+}
+
+/*font awesome styles*/
+ul#menu-social-media-nav li {
+    list-style: none;
+    display: inline;
+}
+.circle {
+    border-radius: 50%;
+    margin: 0.15em;
+    font-size: 3em;
+}
+.fa-facebook {
+    background: #000000;
+    color: #FFFFFF;
+    padding: 0.5em 0.55em;
+}
+.fa-twitter {
+    background: #000000;
+    color: #FFFFFF;
+    padding: 0.55em 0.45em;
+}
+.fa-linkedin {
+    background: #000000;
+    color: #FFFFFF;
+    padding: 0.55em 0.5em;
+}
+.site-footer, .site-footer p, .site-footer a {
+    color: #000000;
+    font-size: .9em;
+    line-height: 1.5;
+}
+/* Social Media menu items */
+#menu-item-47360 a,
+#menu-item-5201 a  {font-family: FontAwesome;}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    border:0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    width: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    word-wrap:normal !important;
+}
