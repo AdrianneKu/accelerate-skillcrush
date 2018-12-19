@@ -10,19 +10,9 @@ wp-content/uploads/
 wp-content/mu-plugins/
 wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
-<<<<<<< HEAD
-=======
-wp-admin/
-wp-includes/
-wp-content/plugins
->>>>>>> 65659a0a2e21f79771096e651f98340c4b324b65
 
 /.htaccess
 /license.txt
 /readme.html
 /sitemap.xml
 /sitemap.xml.gz
-<<<<<<< HEAD
-
-=======
->>>>>>> 65659a0a2e21f79771096e651f98340c4b324b65
